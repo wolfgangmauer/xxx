@@ -6,7 +6,7 @@
       <item type="dir">resources</item>
       <item type="pkg">gtk+-3.0</item>
     </items>
-    <resource namespace="/org/gtk/{projectname}">resource.xml</resource>
+    <resource namespace="{namespace}/{projectname}">resource.xml</resource>
     <options />
   </project>
 </projects>
