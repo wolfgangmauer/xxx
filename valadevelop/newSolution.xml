@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<projects>
+  <project type="executable" path="." output="{projectname}">
+    <items>
+      <item type="file">{projectname}.vala</item>
+      <item type="dir">resources</item>
+      <item type="pkg">gtk+-3.0</item>
+    </items>
+    <resource namespace="/org/gtk/{projectname}">resource.xml</resource>
+    <options />
+  </project>
+</projects>
